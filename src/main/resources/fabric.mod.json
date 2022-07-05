@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "commuchest",
+  "version": "${version}",
+
+  "name": "Community Chest",
+  "description": "This mod adds an alternative chest, just a chest",
+  "authors": [
+    "timoreo"
+  ],
+  "contact": {
+    "homepage": "https://polymc.org/"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/commuchest/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.polymc.commchest.CommunityChest"
+    ],
+    "client": [
+      "org.polymc.commchest.CommunityChestClient"
+    ]
+  },
+  "mixins": [
+    "commchest.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.18.2",
+    "java": ">=17"
+  }
+}

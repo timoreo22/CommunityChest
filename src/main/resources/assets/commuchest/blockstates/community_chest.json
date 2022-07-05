@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "commuchest:block/community_chest"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "commuchest:community_chest"
+    }
+  ],
+  "result": {
+    "item": "minecraft:chest"
+  }
+}
+
